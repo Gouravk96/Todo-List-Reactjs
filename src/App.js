@@ -1,44 +1,6 @@
 
 import React,{useState} from 'react';
 import './App.css'
-// function App() {
-// const [text, setText]=useState('');
-// const [item,setItem]=useState([]);
-
-
-// const onTextChange=(event) =>{
-//   setText(event.target.value);
-// }
-// const listofItems=() =>{
-//   setItem((prev_val)=>{
-//     console.log([...prev_val,text]);
-//   })
-
-// }
-//   return (
-//    <>
-//    <div className="main_div">
-//      <div className='content'>
-//        <h1>ToDO List</h1>
-//        <br/>
-//        <input type='text'
-//        value={text} 
-//        onChange={onTextChange}/>
-//        <button onClick={listofItems}>+</button>
-//    <div>
-//     { this.item.map((itemsval)=>{
-//     return <h1>{itemsval} </h1> 
-
-//   })}
-//   <li>Buy Mnago</li>
-//   </div>
-//      </div>
-//    </div>
-//    </>
-//   );
-// }
-// export default App;
-
 
 class App extends React.Component{
   state={text:"",
